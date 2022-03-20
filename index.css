@@ -1,0 +1,140 @@
+* {
+  box-sizing: content-box;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+}
+
+body {
+  margin: 0;
+  padding: 10px;
+}
+
+header {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  border: 2px solid black;
+  align-items: center;
+  margin-bottom: 20px;
+  padding: 20px 0;
+}
+
+h1 {
+  font-size: 25px;
+  margin: 0 0 0 20px;
+}
+
+.navigation {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: min-content;
+}
+
+.navigation > li {
+  border-right: 2px solid black;
+  width: max-content;
+  padding: 0 10px;
+}
+
+#contact-info {
+  border: none;
+}
+
+.focus {
+  color: green;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px;
+}
+
+.list:nth-child(odd) {
+  background-color: white;
+}
+
+.booklist {
+  width: 100%;
+}
+
+.books {
+  background: rgb(202, 201, 201);
+  border: 2px solid black;
+  height: max-content;
+}
+
+.addbooks {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  margin: 10px auto;
+  width: 40%;
+}
+
+.add {
+  align-self: flex-end;
+}
+
+.addbooks input {
+  width: 100%;
+  border: 2px solid black;
+}
+
+.remove,
+.add {
+  border: 2px solid black;
+  height: max-content;
+}
+
+.contact {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.contact h1 {
+  text-align: center;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.info {
+  text-align: left;
+}
+
+footer {
+  border: 3px solid black;
+  text-align: left;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin-bottom: 5px;
+}
+
+footer > h3 {
+  padding-left: 15px;
+}
+
+.hide-content {
+  display: none;
+}
