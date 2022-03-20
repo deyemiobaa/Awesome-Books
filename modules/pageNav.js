@@ -20,6 +20,6 @@ const displayPage = () => {
     addBookPage.classList.add('hide-content');
     contactPage.classList.remove('hide-content');
   });
-}
+};
 
-export default displayPage
+export default displayPage;

@@ -6,4 +6,4 @@ class Book {
   }
 }
 
-export default Book
+export default Book;
