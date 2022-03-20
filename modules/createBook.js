@@ -1,3 +1,4 @@
+import Book from "./books.js";
 class CreateBook {
   constructor() {
     this.collection = JSON.parse(localStorage.getItem('bookStorage')) || [];
@@ -48,3 +49,5 @@ class CreateBook {
     this.localStorageToWebpage();
   }
 }
+
+export default CreateBook
