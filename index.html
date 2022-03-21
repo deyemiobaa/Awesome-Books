@@ -8,6 +8,52 @@
   <link rel="stylesheet" href="index.css">
 </head>
 <body>
-  <script src="index.js"></script>
+  <div class="container">
+    <header>
+      <h1>Awesome Books</h1>
+      <nav>
+        <ul class="navigation">
+          <li id="list">List</li>
+          <li id="add-new">Add new book</li>
+          <li id="contact-info">Contact</li>
+        </ul>
+      </nav>
+    </header>
+    <div>
+      <p class="date"></p>
+    </div>
+  
+    <section class="booklist">
+      <h2>All Awesome Books</h2>
+      <div class="books">
+  
+      </div>
+    </section>
+  
+    <form class="addbooks hide-content">
+      <h2>Add a new book</h2>
+      <input type="text" class="title" placeholder="Title">
+      <input type="text" class="author" placeholder="Author">
+      <button type="button" class="add">Add</button>
+    </form>
+    <section class="contact hide-content">
+      <div class="contact-info">
+        <h3 class="contact-title">Contact Information</h3>
+        <p>
+          Do you have any questions or you just want to say "Hello"?
+          You can reach out to us!
+        </p>
+        <ul>
+          <li class="info">Our e-mail:lorem@gmail.com</li>
+          <li class="info">Our phone number: 012345678912</li>
+          <li class="info">Our address: 1, lagos city, lagos rd, lagos</li>
+        </ul>
+      </div>
+    </section>
+    <footer>
+      <h3>Copyright 2022</h3>
+    </footer>
+  </div>
+  <script type="module" src="index.js"></script>
 </body>
 </html>
