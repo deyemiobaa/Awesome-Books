@@ -11,12 +11,19 @@
 
 ## Live Demo
 
+<img src="app-snapshot.png" alt="Project Snapshot">
+
 [Live Demo Link](https://deyemiobaa.github.io/Awesome-Books/)
 
 
 ## Getting Started
 
 To get a local copy up and running follow these simple example steps.
+- Open git bash on local computer
+- clone the repo with: 
+```
+git clone  <https://github.com/deyemiobaa/Awesome-Books.git>
+```
 
 ### Prerequisites
 - Understand HTML/CSS and JavaScript
